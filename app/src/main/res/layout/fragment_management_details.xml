@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="MANAGEMENT DETAILS"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is there a Management Committee for the ITI – Y/N"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/isManagementCommittee_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:entries="@array/yes_or_no_array">
+
+        </Spinner>
+
+        <!--  <android.support.design.widget.TextInputLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+              <EditText
+                  android:id="@+id/answer"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint="If Yes, what is the constituent of the management Committee" />
+
+          </android.support.design.widget.TextInputLayout>-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/yoe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Year Of Establishment of ITI"
+                android:inputType="number" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/cee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="What is the capital expenditure to establishment of ITI?(In Lakhs)"
+                android:inputType="number" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/unutilized_fund_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Amount of Un-utilized fund available with ITI:(In Lakhs)"
+                android:inputType="number" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Present Management Structure – Capital Expenditure (Tick the Correct Option)"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <Spinner
+            android:id="@+id/presentCapitalExp_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:entries="@array/capital_or_operating_array">
+
+        </Spinner>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Present Management Structure – Operating Expenditure (Tick the Correct Option)"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/presentOperatingExp_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:entries="@array/capital_or_operating_array" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/challenges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please mention if any observation / challenges in management of an ITI"
+                android:inputType="text" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/management_details_submit_button_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".fragments.CaptureImages">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <ImageView
+            android:id="@+id/capturedImage"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/camersss"
+            />
+        <VideoView
+            android:id="@+id/capturedVideo"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="300dp"
+            android:visibility="invisible"
+            />
+    </FrameLayout>
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/imageCategorySpinnerId"
+        android:entries="@array/imageCategories"
+        >
+
+    </Spinner>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/imageName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter name of image/Video" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        >
+        <Button
+            android:id="@+id/capture"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="Capture"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/recordVideo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="Record Video"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/uploadImages"
+        />
+
+</LinearLayout>

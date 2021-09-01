@@ -1,0 +1,226 @@
+<resources>
+    <string name="app_name">ITI Requirements</string>
+    <string name="welcome_note">Welcome to ITI Upgradation App</string>
+    <string name="please_click_the_button_below_to_fetch_this_location_coordinates">Please Click the button below to fetch this location coordinates</string>
+    <string-array name="districts">
+        <item>--Select District--</item>
+        <item>Srikakulam</item>
+        <item>Vizianagaram</item>
+        <item>Visakhapatnam</item>
+        <item>East Godavari</item>
+        <item>West Godavari</item>
+        <item>Krishna</item>
+        <item>Guntur</item>
+        <item>Prakasam</item>
+        <item>Nellore</item>
+        <item>Chittoor</item>
+        <item>Kadapa</item>
+        <item>Kurnool</item>
+        <item>Anantapur</item>
+    </string-array>
+    <string-array name="college_name">
+        <item>--Select College--</item>
+        <item>College Name 1</item>
+        <item>College Name 2</item>
+    </string-array>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="auth_google">firebaseAuthWithGoogle:</string>
+    <string name="conn_info_log">CONNECTION INFO</string>
+    <string name="succ">Successful</string>
+    <string name="enable_internet">Please enable your internet connection</string>
+    <string name="net_alert_poistive_button">OK</string>
+    <string name="api_key2">AIzaSyBvvpFGiBYyBi7EPWgTmbJg1BuA6Vjo8NI</string>
+    <string name="section_measure">Measure</string>
+    <string name="section_mapview">Map view</string>
+    <string name="measure_distance">Distance</string>
+    <string name="measure_area">Area</string>
+    <string name="measure_elevation">Elevation</string>
+    <string name="mapview_map">Map</string>
+    <string name="mapview_satellite">Satellite</string>
+    <string name="mapview_terrain">Terrain</string>
+    <string name="metric">Metric units</string>
+    <string name="about">About</string>
+    <string name="about_text">This app was created by APSSDC Android Team (<a href="http://www.j4velin.de">www.j4velin.de</a>) and uses the \'Google Maps API v2\'.\n\nMaps Measure is open source! Get the code from <a href="https://github.com/j4velin/MapsMeasure">GitHub</a>.\n\n</string>
+    <string name="app_version">App version: %s</string>
+    <string name="moreapps">More apps</string>
+    <string name="delete">delete</string>
+    <string name="delete_all">Delete all %d points?</string>
+    <string name="no_location_found">No location found</string>
+    <string name="units">Units</string>
+    <string name="savenshare">Save &amp; share</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="share">Share</string>
+    <string name="file_saved">File saved</string>
+    <string name="error">Error: %s</string>
+    <string name="select_file">Select file</string>
+    <string name="no_files_found">No files found in %s</string>
+    <string name="elevation_error">There was an error connecting to the Google Evelation API: Server currently not available or daily request limit reached</string>
+    <string name="elevation_error_no_connection">No internet connection: The app needs to query the Google Evelation API to get altitude data and therefore requires an active internet connection to calculate evelation data</string>
+    <string name="buy_pro">This feature is currently not available in the free version of the app. Do you want to upgrade to the pro version now?</string>
+    <string name="file_name">File name (optional)</string>
+    <string name="file_path">File will be saved here: %s</string>
+    <string name="dir_read_error">Error reading directory %s</string>
+    <string name="marker_on_current_location">A marker was added on your current location</string>
+    <string name="no_google_connection">Can not reach Google server to query for elevation information - please check your internet connection</string>
+
+    <string-array name="Srikakulam">
+        <item>--Select College--</item>
+        <item>Dr V Kranthis Govt ITI</item>
+        <item>Etcherla,Govt Industrial Training Institute for Women</item>
+        <item>Govt District Level Training Centre / Industrial Training Institute</item>
+        <item>Seethampeta, Govt Industrial Training Institute</item>
+        <item>Rajam,Govt ITI</item>
+    </string-array>
+    <string-array name="Vizianagaram">
+        <item>--Select College--</item>
+        <item>Bobbili,Govt Industrial Training Institute</item>
+        <item>Bhadragiri,Govt Residential Industrial Training Institute</item>
+        <item>Govt Industrial Training Institute for Girls</item>
+        <item>Salur, Govt Industrial Training Institute</item>
+    </string-array>
+    <string-array name="Visakhapatnam">
+        <item>--Select College--</item>
+        <item>Govt Industrial Training Institute(Old) Visakhapatnam</item>
+        <item>Govt Industrial Training Institute for Women</item>
+        <item>Araku,Govt Residential Industial Training Institute for SC And STs</item>
+        <item>Chintapalli, Govt Residential Industrial Training Institute</item>
+        <item>Govt Industrial Training Institute(New),Visakhapatnam</item>
+        <item>Govt Industrial Training Institute, Narsipatnam</item>
+        <item>Govt ITI, Payakaraopeta</item>
+    </string-array>
+    <string-array name="EastGodavari">
+        <item>--Select College--</item>
+        <item>Kakinada,Govt Industrial Training Institute</item>
+        <item>Rajahmundry,Govt Industrial Training Institute for Women</item>
+    </string-array>
+
+    <string-array name="WestGodavari">
+        <item>--Select College--</item>
+        <item>Govt District Level Training Centre ITI,Eluru</item>
+        <item>Govt Industrial Training Institute,Undi Bhimavaram</item>
+        <item>Govt Industrial Training Institute,Eluru</item>
+        <item>Govt ITI,K R Puram</item>
+        <item>Govt ITI,Chintalapudi</item>
+    </string-array>
+
+    <string-array name="Krishna">
+        <item>--Select College--</item>
+        <item>Vijayawada,Govt Industrial Training Institute</item>
+        <item>Gudivada,Govt Industrial Training Institute for Girls</item>
+        <item>Govt Industrial Training Institute, Nuzvid</item>
+        <item>Govt BTC, Vijayawada</item>
+    </string-array>
+
+    <string-array name="Guntur">
+        <item>--Select College--</item>
+        <item>Guntur,Govt District Level Training Centre ITI</item>
+        <item>Tenali,Govt Industrial Training Institute</item>
+        <item>Macherla,Govt Residential Industrial Training Institute</item>
+        <item>T R C Govt ITI, Gudavalli</item>
+        <item>Govt ITI,Nizampatnam</item>
+    </string-array>
+
+    <string-array name="Prakasam">
+        <item>--Select College--</item>
+        <item>Govt ITI, Markapur</item>
+        <item>Govt ITI Boys,Ongole</item>
+        <item>Govt ITI for Girls, Ongole</item>
+        <item>Govt ITI, Kandukur</item>
+    </string-array>
+
+    <string-array name="Nellore">
+        <item>--Select College--</item>
+        <item>Gudur,Govt District Level Industrial Training Institute</item>
+        <item>Govt ITI,Venkatagiri Town</item>
+        <item>Govt ITI for Girls,Chittedu</item>
+        <item>Govt ITI, Nellore</item>
+        <item>Govt ITI,TADA</item>
+        <item>Govt ITI for Girls,Nellore</item>
+        <item>Govt ITI, Vakadu</item>
+        <item>Govt ITI, Podalakur</item>
+        <item>Govt ITI, A S Peta</item>
+        <item>Govt ITI, Sangam</item>
+    </string-array>
+    <string-array name="Chittoor">
+        <item>--Select College--</item>
+        <item>Govt ITI, Tirupati</item>
+        <item>Govt ITI , Chittoor</item>
+        <item>Govt ITI for Girls,Karvetinagaram</item>
+        <item>Punganur,Govt ITI for Minorities</item>
+        <item>Govt ITI, Thamballapally</item>
+        <item>Govt ITI,BNR Peta</item>
+        <item>Govt ITI,Vedurukuppam</item>
+        <item>Govt ITI, Vijayapuram</item>
+        <item>Govt ITI, Shantipuram</item>
+        <item>Govt ITI, Pileru</item>
+    </string-array>
+
+    <string-array name="Kadapa">
+        <item>--Select College--</item>
+        <item>Kagithalapanta,Govt District Level Training Centre ITI</item>
+        <item>Jammalamadugu,Govt Industrial Training Institute</item>
+        <item>Kadapa,Govt Residential ITI for Girls</item>
+        <item>Govt ITI for Minorities, Kadapa</item>
+        <item>Govt ITI Tondur</item>
+        <item>Govt ITI Vemula</item>
+        <item>Govt ITI,Chakrayapeta</item>
+        <item>Govt ITI, Lingala</item>
+        <item>Govt ITI, Rajampet</item>
+        <item>Govt ITI, Yerraguntla</item>
+        <item>Govt ITI, Mylavaram</item>
+    </string-array>
+
+    <string-array name="Kurnool">
+        <item>--Select College--</item>
+        <item>Govt District Level Training Centre ITI</item>
+        <item>Srisailam,Govt Industrial Training Institute</item>
+        <item>Govt ITI for Women</item>
+        <item>Govt ITI, Dhone</item>
+        <item>Govt ITI Alur</item>
+        <item>Govt ITI (Owk)</item>
+    </string-array>
+
+    <string-array name="Anantapur">
+        <item>--Select College--</item>
+        <item>Govt ITI for Women</item>
+        <item>Govt ITI,Anantapur</item>
+        <item>Govt ITI, Guntakal</item>
+        <item>Govt ITI, Hindupur</item>
+        <item>Govt ITI, Tadpatri</item>
+        <item>Govt ITI, Uravakonda</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="yes_or_no_array">
+        <item>Select</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="capital_or_operating_array"
+        >
+        <item>Select</item>
+        <item>Principal have the autonomy to do expenditure </item>
+        <item>Needs to take approval from State Department</item>
+        <item>Needs to take approval from Management Committee</item>
+    </string-array>
+
+    <string-array name="imageCategories">
+        <item>Select Category of Image</item>
+        <item>Person</item>
+        <item>Lab Infrastructure</item>
+        <item>Other Furniture</item>
+        <item>Building</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectCollegeActivity">
+
+    <Spinner
+        android:id="@+id/district_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"/>
+
+    <Spinner
+        android:id="@+id/college_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="16dp" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="bottom|right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/next_go"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/next"
+            app:cb_color="@color/colorPrimary"
+            app:cb_pressedRingWidth="8dip"
+            android:onClick="goToNext"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

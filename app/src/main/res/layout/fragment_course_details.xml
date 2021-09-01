@@ -1,0 +1,121 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="in.apssdc.engineering.itirequirements.fragments.CourseDetails">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COURSE DETAILS"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Is there a dedicated Placement Officer available at the center? Y / N"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="#000"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/isDedicatedPlacementOfficer"
+        android:entries="@array/yes_or_no_array"
+        >
+
+    </Spinner>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/noofIndustryPartners_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No.of Industry Partners"
+            android:inputType="number"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/studentPlacedLocations_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Places where students are placed"
+            android:inputType="text"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/remedialSteps_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Remedial Steps for candidate placement"
+            android:inputType="textMultiLine"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/noofLoans_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="How many students have received Mudra Loans or any other loans to open their own enterprise in last 3 years? …….."
+            android:inputType="number"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/promotingApproach_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="approach for promoting Entrepreneurship"
+            android:inputType="textMultiLine"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/course_details_submit_button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        />
+
+</LinearLayout>
+</ScrollView>
